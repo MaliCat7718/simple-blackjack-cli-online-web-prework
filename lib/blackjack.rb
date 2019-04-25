@@ -52,7 +52,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner(card_total)
   welcome
   sleep 0.75
   total_card = initial_round
@@ -63,4 +63,4 @@ def runner
 end_game(card_total)
 end
 
-runner
+runner(card_total)
